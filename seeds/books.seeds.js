@@ -11,7 +11,7 @@ const bookList = [
   { title: "Pride and Prejudice", author: "Jane Austen", pages: "279" },
 ];
 
-// Creamos usuarios adicionales
+// Creamos libros adicionales
 for (let i = 0; i < 45; i++) {
   const newBook = {
     title: faker.lorem.words(),
